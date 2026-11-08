@@ -2004,3 +2004,7 @@ plumbing proven). Reuses the tier-2 lifecycle via
   docs/agents-archive.md.
 - Releases this arc: v0.4.0-v0.6.0 shipped sandbox-gated + smoke-verified;
   per-release detail in `shared/releaseNotes.ts` and docs/agents-archive.md.
+
+## Planning high-risk changes
+
+Before changing the engine protocol, world-model rules, Electron trust boundary or persisted settings, outline the affected contracts, migration or rollback needs, and the fixture and CI evidence required. Use the operating model and release gates in this file to review the plan and its implementation.
